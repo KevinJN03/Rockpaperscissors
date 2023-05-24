@@ -1,0 +1,25 @@
+{
+  "name": "rockpaperscissors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "script": " node script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinJN03/Rockpaperscissors.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinJN03/Rockpaperscissors/issues"
+  },
+  "homepage": "https://github.com/KevinJN03/Rockpaperscissors#readme",
+  "dependencies": {
+    "prompt": "^1.3.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
