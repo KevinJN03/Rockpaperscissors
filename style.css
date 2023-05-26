@@ -10,12 +10,12 @@
 html {
   background: black;
 }
-body {
-  margin: 0;
-  padding: 0;
-}
+
 
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -91,7 +91,7 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 20px 0;
+  margin: 200px 0 20px 0;
 }
 
 #result-title{
@@ -167,3 +167,22 @@ margin-top:25px;
   border: 0px black solid
 }
 
+@media screen and (max-width: 480px){
+  header h1 {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 1.5;
+    
+  }
+
+  .btn-container {
+    flex-direction: column;
+
+  }
+  .btn {
+   padding: 10px;
+   margin: 0 auto;
+
+
+  }
+}
