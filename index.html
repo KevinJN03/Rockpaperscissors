@@ -4,10 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="js-file.js" defer></script>
     <title>Rock Paper Scissors</title>
 </head>
 <body>
+    <header>
+        <h1>ROCK PAPER SCISSORS</h1>
+    </header>
+
+    <section id="results">
+        <h2 id="result-title">Choose your weapon</h2>
+        <h3 id="result-subtitle">First to score 5 points wins the game</h3>  
+    </section>
     
+    <section id="scores-container">
+        <div id="player" class="score-container">
+            <img id="player-img" src="Images/question-mark.png">
+            <h3 id="player-score">Player:</h3>
+            
+        </div>
+
+        <div id="computer" class="score-container">
+            <img id="computer-img"src="./Images/question-mark.png">
+            <h3 id="computer-score">Computer: </h3>
+        </div>
+    </section>
+    <div class="btn-container">
+        <button id="rock" class="btn"><img src="./Images/rock.png"></button>
+        <button id="paper" class="btn"><img src="./Images/paper.png"></button>
+        <button id="scissors" class="btn"><img src="./Images/scissors.png"></button>
+    </div>
+
+    <div class="modal-container">
+        <div class="modal">
+            <h3 id="modal-text">text</h3>
+        </div>
+    </div>
 </body>
+
 </html>

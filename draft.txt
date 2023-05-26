@@ -1,0 +1,63 @@
+rockBtn.addEventListener("click", () => {
+  let round = playRound("rock");
+
+  if (round.includes("You Win!")) {
+    playerScoreCounter++;
+    resultTitle.innerText = "You Win!";
+  }
+  if (round.includes("You Lose!")) {
+    computerScoreCounter++;
+    resultTitle.innerText = "You Lose!";
+  }
+  if (round.includes("Tie,")) {
+    resultTitle.innerText = "Tie!";
+  }
+  resultSubtitle.innerText = removeDecision(round);
+  computerScore.innerHTML = `Score: ${computerScoreCounter}`; // Update the score display
+  //Score.innerHTML = `Score: ${playerScoreCounter}`; // Update the score display
+
+    });
+
+
+
+    // btn[1].addEventListener("click", () => {
+//   let round = playRound("paper");
+
+//   if (round.includes("You Win!")) {
+//     playerScoreCounter++;
+//     resultTitle.innerText = "You Win!";
+//   }
+//   if (round.includes("You Lose!")) {
+//     computerScoreCounter++;
+//     resultTitle.innerText = "You Lose!";
+//   }
+//   if (round.includes("Tie,")) {
+//     resultTitle.innerText = "Tie!";
+//   }
+//   resultSubtitle.innerText = removeDecision(round);
+//   computerScore.innerHTML = `Score: ${computerScoreCounter}`; // Update the score display
+//   Score.innerHTML = `Score: ${playerScoreCounter}`; // Update the score display
+  
+  
+// });
+
+// btn[2].addEventListener("click", () => {
+//   let round = playRound("scissors");
+
+//   if (round.includes("You Win!")) {
+//     playerScoreCounter++;
+//     resultTitle.innerText = "You Win!";
+//   }
+//   if (round.includes("You Lose!")) {
+//     computerScoreCounter++;
+//     resultTitle.innerText = "You Lose!";
+//   }
+//   if (round.includes("Tie,")) {
+//     resultTitle.innerText = "Tie!";
+//   }
+//   resultSubtitle.innerText = removeDecision(round);
+//   computerScore.innerHTML = `Score: ${computerScoreCounter}`; // Update the score display
+//   Score.innerHTML = `Score: ${playerScoreCounter}`; // Update the score display
+  
+  
+// });
