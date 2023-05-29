@@ -143,6 +143,9 @@ function resetGame(){
   computerScore.innerHTML = "Computer:"
   Score.innerHTML = "Player:"
   modalContainer.style.display = "none"
+  resultTitle.innerText = "Choose your weapon"
+  resultSubtitle.innerText = "First to score 5 points wins the game"
+
 
 
 }
